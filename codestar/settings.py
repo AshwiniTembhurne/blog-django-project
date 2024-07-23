@@ -87,7 +87,10 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-ashwinitemb-blogdjangop-vo9uh1tichc.ws.codeinstitute-ide.net',
+    'https://blog-project-9980ab61b014.herokuapp.com'
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
