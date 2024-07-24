@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8t)$63m_&_=os_c$&mi6$fgf&^3n-&)ezy0plb)@g1_x-8*z@2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-ashwinitemb-blogdjangop-vo9uh1tichc.ws.codeinstitute-ide.net','.herokuapp.com']
 
@@ -89,7 +89,7 @@ DATABASES = {
 }
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-ashwinitemb-blogdjangop-vo9uh1tichc.ws.codeinstitute-ide.net',
-    'https://blog-project-9980ab61b014.herokuapp.com'
+    'https://blog-project-9980ab61b014.herokuapp.com/'
 ]
 
 # Password validation
@@ -127,6 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
